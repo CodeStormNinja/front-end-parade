@@ -1,11 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/src/index.css" rel="stylesheet">
+    <link href="/src/index.css" rel="stylesheet" />
     <title>CodeStormNinja</title>
+    <style>
+      input[type="datetime-local"].hide-native-calendar::-webkit-calendar-picker-indicator {
+        opacity: 0;
+      }
+      input[type="datetime-local"].hide-native-calendar::-webkit-input-placeholder {
+        color: #93c5fd;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
